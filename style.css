@@ -223,70 +223,44 @@ footer {
 }
 
 @media screen and (max-width: 425px) {
- header {
-   width: 100%;
+  header {
+    width:100%;
   }
 
- .nav-list {
-   width: 100%;
+  .nav-list {
+    width: 100%;
   }
 
- .nav-list-item {
-   width: 100%;
-   margin: 0 0 10px 0;
+  .nav-list-item {
+    width: 100%;
   }
 
- .social {
-   display: none;
+  .main-visual-content {
+    width: 100%;
   }
 
- .main-visual-content {
-   width: 100%;
+  main {
+    width: 100%;
   }
 
- main {
-   width: 100px;
-   display: block;
+  .blog {
+    width: 100%;
+  }
+  
+  .blog-image {
+    width: 50%;
   }
 
- .blog {
-   width: 100px;
-   margin: 0;
+  .blog-item {
+    width: 50%;
   }
 
- .blog-box {
-   padding-left: 2%;
-   padding-right: 2%;
+  .sidebar {
+    width: 100%;
   }
 
- .blog-image {
-   width: 49%;
+  footer {
+    width: 100%;
   }
 
- .blog-text {
-   width: 49%;
-   padding-top: 5px;
-  }
-
-.sidebar {
-  width: 100%;
- }
-
-.sidebar-contents {
-  padding-left: 3%;
-  padding-right: 3%;
- }
-
-.instagram-box {
-  width: 48%;
-  padding-top: 48%;
- }
-
-.instagram-box:nth-child(odd) {
-  margin-right: 4%;
- }
-
-.pagination {
-  margin-bottom: 50px;
- }
 }
